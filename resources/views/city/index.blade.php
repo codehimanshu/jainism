@@ -5,10 +5,11 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                @foreach($countries as $country)
-                    <a href="{{route('country.show',$country->id)}}">{{$country->name}}</a>
-                    @if($country->image)
-                        <img src="{{ asset('img/'.$country->image) }}">
+                <h2>{{$country->image}}</h2>
+                @foreach($cities as $city)
+                    <a href="{{route('city.show',$city->id)}}">{{$city->name}}</a>
+                    @if($city->image)
+                        <img src="{{ asset('img/'.$city->image) }}">
                     @endif
                 @endforeach
             </div>

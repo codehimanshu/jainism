@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Country;
 use Illuminate\Http\Request;
 
 class CountryController extends Controller
@@ -45,7 +46,9 @@ class CountryController extends Controller
      */
     public function show($id)
     {
-        //
+        $country = Country::find($id);
+        $cities = $country->cities;
+        return view('city.index',compact('country','cities'));
     }
 
     /**
