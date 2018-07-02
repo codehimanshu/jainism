@@ -1,3 +1,12 @@
+$(document).scroll(function(){
+  $(".navbar").toggleClass("nav-small",$(this).scrollTop()>100);
+  $(".logo-image").toggleClass("logo-image2",$(this).scrollTop()>100);
+  $(".a1").toggleClass("a2",$(this).scrollTop()>100);
+});
+
+
+
+
 ;(function () {
 	
 	'use strict';

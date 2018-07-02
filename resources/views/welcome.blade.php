@@ -115,6 +115,20 @@
 					</a>
 				</div>
 			</section>
+			<section id="about">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6" style=" min-height: 500px; display: flex; justify-content: center; align-items: center;">
+							<img src="images/slider1.jpg" height="400px" ">
+						</div>
+						<div class="col-md-6" style=" min-height: 500px; display: flex;  justify-content: center; flex-direction: column;">
+							<h4 style="color: #f49842;">Shortly About Us</h4>
+							<h1><i>Welcome To Jain Guide</i></h1>
+							<p style="font-size: 20px">	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo debitis, pariatur nam ut eum tempora quae dolor cumque nemo libero suscipit quas quia, nihil voluptatum, autem deserunt animi blanditiis quidem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo debitis, pariatur nam ut eum tempora quae dolor cumque nemo libero suscipit quas quia, nihil voluptatum, autem deserunt animi blanditiis quidem!</p>
+						</div>
+					</div>
+				</div>
+			</section>
 			<!-- <div id="fh5co-services" class="fh5co-bg-section">
 						<div class="container">
 									<div class="row">

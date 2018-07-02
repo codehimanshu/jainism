@@ -45,7 +45,6 @@ body {
   background: rgba(0, 0, 0, 0.7);
   content: "";
 }
-
 a {
   color: #F36363;
   -webkit-transition: 0.5s;
@@ -61,8 +60,6 @@ a:hover, a:active, a:focus {
 p {
   margin-bottom: 20px;
 }
-
-
 
 ::-webkit-selection {
   color: #fff;
