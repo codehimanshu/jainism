@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Jain Darshanmala</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<meta name="description" content="Perfect Jain Teerth Guide" />
 		<meta name="keywords" content="jain darshanmala - perfect jain teerth guide" />
 		<meta name="author" content="CodeHive.tech" />
@@ -31,7 +31,7 @@
 		<!-- Bootstrap  -->
 		<!-- Theme style  -->
 		<link rel="stylesheet" type="text/css" href="css/custom.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 		<!-- Modernizr JS -->
 		<script src="js/modernizr-2.6.2.min.js"></script>
 		<!-- FOR IE9 below -->
@@ -41,9 +41,7 @@
 	</head>
 	<body>
 		
-		<div class="fh5co-loader"></div>
 		
-		<div id="page">
 			
 			<nav class="navbar navbar-fixed-top">
 				<div class="container-fluid">
@@ -70,6 +68,7 @@
 				</div>
 			</nav>
 			<section id="home">
+				<img src="images/donate.png" style="position: fixed; bottom: 20px; right: 20px; z-index: 1;" width="60px">
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 					<!-- Indicators -->
 					<ol class="carousel-indicators">
@@ -128,6 +127,67 @@
 						</div>
 					</div>
 				</div>
+			</section>
+			<section id="news">
+				<div class="container-fluid" style="padding: 0;">
+					<div class="row">
+					<div class="col-md-3 news_card" style="padding: 0;">
+						<div style="z-index: 1;">
+							<h1 style="margin-bottom: 0;">Our Missions</h1>
+							<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
+							<p>Become a part of the story</p>
+							</div>
+					</div>
+					<div class="col-md-3 news_card" style="padding: 0;">
+							<div style="z-index: 1;">
+							<h1 style="margin-bottom: 0;">Our Missions</h1>
+							<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
+							<p>Become a part of the story</p>
+							</div>
+					</div>
+					<div class="col-md-3 news_card" style="padding: 0;">
+							<div style="z-index: 1;">
+							<h1 style="margin-bottom: 0;">Our Missions</h1>
+							<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
+							<p>Become a part of the story</p>
+							</div>
+					</div>
+					<div class="col-md-3 news_card" style="padding: 0;">
+							<div style="z-index: 1;">
+							<h1 style="margin-bottom: 0;">Our Missions</h1>
+							<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
+							<p>Become a part of the story</p>
+							</div>
+					</div>
+					</div>
+				</div>
+			</section>
+			<section id="stories">
+				<div class="container-fluid">
+					<h1 class="text-center" style="font-size: 48px;">Recent Stories</h1>
+					<hr style="border-bottom: 2px solid black;" width="15%">
+					<div class="row" style="padding-top: 50px;">
+						<div class="col-md-4">
+							<img src="images/bg1.jpg" style="width: 100%">
+							<h2>I Believe God is Grecious</h2>
+							<p>On <b>July 3, 2018</b> by <b> Naman Jain</b></p>
+								<p style="font-size: 18px; padding-top: 10px; color: #6c757d;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nisi odio modi quidem quo dolorem quia minus consectetur cupiditate! Animi ipsa enim dolor, debitis sapiente aliquid cupiditate quae minus error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptate, est? Architecto perspiciatis, nesciunt cumque pariatur rerum adipisci.</p>
+						</div>
+						<div class="col-md-4">
+							<img src="images/bg1.jpg" style="width: 100%">
+							<h2>I Believe God is Grecious</h2>
+							<p>On <b>July 3, 2018</b> by <b> Naman Jain</b></p>
+								<p style="font-size: 18px; padding-top: 10px; color: #6c757d;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nisi odio modi quidem quo dolorem quia minus consectetur cupiditate! Animi ipsa enim dolor, debitis sapiente aliquid cupiditate quae minus error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptate, est? Architecto perspiciatis, nesciunt cumque pariatur rerum adipisci.</p>
+						</div>
+						<div class="col-md-4">
+							<img src="images/bg1.jpg" style="width: 100%">
+							<h2>I Believe God is Grecious</h2>
+							<p>On <b>July 3, 2018</b> by <b> Naman Jain</b></p>
+								<p style="font-size: 18px; padding-top: 10px; color: #6c757d;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nisi odio modi quidem quo dolorem quia minus consectetur cupiditate! Animi ipsa enim dolor, debitis sapiente aliquid cupiditate quae minus error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptate, est? Architecto perspiciatis, nesciunt cumque pariatur rerum adipisci.</p>
+						</div>
+					</div>
+				</div>
+				
 			</section>
 			<!-- <div id="fh5co-services" class="fh5co-bg-section">
 						<div class="container">
