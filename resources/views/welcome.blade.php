@@ -107,7 +107,7 @@
 						<div class="overlay"></div>
 						<img src="images/slider1.jpg" alt="Image">
 						<div class="carousel-caption">
-							<h2 class="carousel-caption-heading">Perfect Jain Teerth Guide</h2>
+							<h3 class="carousel-caption-heading">Perfect Jain Teerth Guide</h3>
 							<hr width="20%">
 						</div>
 					</div>
@@ -115,7 +115,7 @@
 						<div class="overlay"></div>
 						<img src="images/slider2.jpg" alt="Image">
 						<div class="carousel-caption">
-							<h2 class="carousel-caption-heading">Perfect Jain Teerth Guide</h2>
+							<h2 class="carousel-caption-heading">Live And Let Live</h2>
 							<hr width="20%">
 						</div>
 					</div>
