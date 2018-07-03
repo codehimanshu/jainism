@@ -22,8 +22,8 @@
 		<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 		
 		<!-- Animate.css -->
 		<link rel="stylesheet" href="css/animate.css">
@@ -41,9 +41,6 @@
 		<![endif]-->
 	</head>
 	<body>
-		
-		
-		
 		<nav class="navbar navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -59,11 +56,31 @@
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="#home">Home</a></li>
-						<li><a href="#">Pages</a></li>
-						<li><a href="#speakers">Events</a></li>
-						<li><a href="#schedule">Features</a></li>
-						<li><a href="#team">Gallery</a></li>
-						<li><a href="#contact">Blog</a></li>
+						<li class="dropdown">
+        			<a class="dropdown-toggle" data-toggle="dropdown" >About Us
+        			<span class="caret"></span></a>
+        			<ul class="dropdown-menu">
+          			<li><a href="#">About Jain Dharamshala</a></li>
+          			<li><a href="#">About Jainism</a></li>
+          			<li><a href="#">Page 1-3</a></li>
+        			</ul>
+      			</li>
+						<li class="dropdown">
+        			<a class="dropdown-toggle" data-toggle="dropdown" >Teerth
+        			<span class="caret"></span></a>
+        			<ul class="dropdown-menu">
+          			<li><a href="#">Country</a></li>
+          			<li><a href="#">State</a></li>
+          			<li><a href="#">City</a></li>
+          			<li><a href="#">Teerth</a></li>
+
+        			</ul>
+      			</li>
+						<li><a href="#speakers">Paathshala</a></li>
+						<li><a href="#schedule">Gallery</a></li>
+						<li><a href="#team">Blog</a></li>
+						<li><a href="#contact">Contact us</a></li>
+
 					</ul>
 				</div>
 			</div>
@@ -482,14 +499,6 @@
 		</footer>
 		</section>
 		
-		<!-- jQuery -->
-		<script src="js/jquery.min.js"></script>
-		<!-- jQuery Easing -->
-		<script src="js/jquery.easing.1.3.js"></script>
-		<!-- Bootstrap -->
-		<script src="js/bootstrap.min.js"></script>
-		<!-- Waypoints -->
-		<script src="js/jquery.waypoints.min.js"></script>
 		<!-- Main -->
 		<script src="js/main.js"></script>
 	</body>
