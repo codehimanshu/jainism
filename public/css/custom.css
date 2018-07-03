@@ -303,3 +303,15 @@ margin-top: 0;
 #fh5co-footer .copyright .block {
   display: block;
 }
+.about_image {
+  height: 400px;
+}
+@media(max-width: 768px) {
+  .about_image {
+    width: 90vw;
+  }
+}
+.btn-link:active , .btn-link:focus , .btn-link:target{
+  outline: 0;
+  border: none;
+}

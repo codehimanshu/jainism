@@ -20,6 +20,7 @@
 		<meta name="twitter:card" content="" />
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -68,7 +69,31 @@
 			</div>
 		</nav>
 		<section id="home">
-			<img src="images/donate.png" style="position: fixed; bottom: 20px; right: 20px; z-index: 1; background-color: #fff; padding: 10px; border-radius: 50%;" width="60px">
+			<div style="position: fixed; right: 10px; bottom: 10px; z-index: 1;">
+				<button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModal">
+			<i style="font-size: 35px; border-radius: 50%; padding: 20px; color: red; background-color: #fff;" class="fas fa-hand-holding-heart"></i>
+		</button>
+		</div>
+		<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title text-center">Donate</h4>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, libero optio aperiam quos eveniet quisquam similique nisi eligendi perferendis blanditiis, nostrum asperiores, tempore id officia. Fugiat placeat officia nam et!.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
@@ -118,7 +143,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-6" style=" min-height: 500px; display: flex; justify-content: center; align-items: center;">
-						<img src="images/slider1.jpg" height="400px" ">
+						<img src="images/slider1.jpg" class="about_image">
 					</div>
 					<div class="col-md-6" style=" min-height: 500px; display: flex;  justify-content: center; flex-direction: column;">
 						<h4 style="color: #f49842;">Shortly About Us</h4>
