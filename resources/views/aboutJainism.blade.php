@@ -47,7 +47,7 @@
 </nav>
 
 <section style="padding-top: 100px;">
-  <h1 class="text-center" >Jain Dharamshala</h1>
+  <h1 class="text-center" >Jainism</h1>
   <hr style="border-bottom: 2px solid black; width: 10%;">
   <div class="container-fluid" style="padding-right: 0; padding-left: 0; padding-top: 30px;">
     <div class="row">
