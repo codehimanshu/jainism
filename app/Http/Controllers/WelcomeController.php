@@ -18,4 +18,18 @@ class WelcomeController extends Controller
         return view('welcome',compact('countries'));
     }
 
+    public function aboutDarshanmala()
+    {
+        return view('aboutDarshanmala');
+    }
+
+    public function aboutJainism()
+    {
+        return view('aboutJainism');
+    }
+
+    public function gallery()
+    {
+        return view('galler');
+    }
 }

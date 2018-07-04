@@ -1,263 +1,179 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Jain Darshanmala</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<meta name="description" content="Perfect Jain Teerth Guide" />
-		<meta name="keywords" content="jain darshanmala - perfect jain teerth guide" />
-		<meta name="author" content="CodeHive.tech" />
-		<!-- Facebook and Twitter integration -->
-		<meta property="og:title" content=""/>
-		<meta property="og:image" content=""/>
-		<meta property="og:url" content=""/>
-		<meta property="og:site_name" content=""/>
-		<meta property="og:description" content=""/>
-		<meta name="twitter:title" content="" />
-		<meta name="twitter:image" content="" />
-		<meta name="twitter:url" content="" />
-		<meta name="twitter:card" content="" />
-		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-		
-		<!-- Animate.css -->
-		<link rel="stylesheet" href="css/animate.css">
-		<!-- Icomoon Icon Fonts-->
-		<link rel="stylesheet" href="css/icomoon.css">
-		<!-- Bootstrap  -->
-		<!-- Theme style  -->
-		<link rel="stylesheet" type="text/css" href="css/custom.css">
-		<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
-		<!-- Modernizr JS -->
-		<script src="js/modernizr-2.6.2.min.js"></script>
-		<!-- FOR IE9 below -->
-		<!--[if lt IE 9]>
-		<script src="js/respond.min.js"></script>
-		<![endif]-->
-	</head>
-	<body>
-		<nav class="navbar navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					</button>
-					<span class="navbar-brand logo">
-						<a class="a1" href="#home"><img src="images/logo.png" class="logo-image"></a>
-					</span>
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="#home">Home</a></li>
-						<li class="dropdown">
-        			<a class="dropdown-toggle" data-toggle="dropdown" >About Us
-        			<span class="caret"></span></a>
-        			<ul class="dropdown-menu">
-          			<li><a href="#">About Jain Dharamshala</a></li>
-          			<li><a href="#">About Jainism</a></li>
-          			<li><a href="#">Page 1-3</a></li>
-        			</ul>
-      			</li>
-						<li class="dropdown">
-        			<a class="dropdown-toggle" data-toggle="dropdown" >Teerth
-        			<span class="caret"></span></a>
-        			<ul class="dropdown-menu">
-          			<li><a href="#">Country</a></li>
-          			<li><a href="#">State</a></li>
-          			<li><a href="#">City</a></li>
-          			<li><a href="#">Teerth</a></li>
+@include('layouts.header')
+@include('layouts.navbar')
 
-        			</ul>
-      			</li>
-						<li><a href="#speakers">Paathshala</a></li>
-						<li><a href="#schedule">Gallery</a></li>
-						<li><a href="#team">Blog</a></li>
-						<li><a href="#contact">Contact us</a></li>
-
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<section id="home">
-			<div style="position: fixed; right: 10px; bottom: 10px; z-index: 1;">
-				<button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModal">
+<section id="home">
+	<div style="position: fixed; right: 10px; bottom: 10px; z-index: 1;">
+		<button type="button" class="btn btn-link" data-toggle="modal" data-target="#myModal">
 			<i style="font-size: 35px; border-radius: 50%; padding: 20px; color: red; background-color: #fff;" class="fas fa-hand-holding-heart"></i>
 		</button>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+			
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title text-center">Donate</h4>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, libero optio aperiam quos eveniet quisquam similique nisi eligendi perferendis blanditiis, nostrum asperiores, tempore id officia. Fugiat placeat officia nam et!.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+			
 		</div>
-		<!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title text-center">Donate</h4>
-        </div>
-        <div class="modal-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, libero optio aperiam quos eveniet quisquam similique nisi eligendi perferendis blanditiis, nostrum asperiores, tempore id officia. Fugiat placeat officia nam et!.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<!-- Indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
-				</ol>
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<div class="overlay"></div>
-						<img src="images/slider1.jpg" alt="Image">
-						<div class="carousel-caption">
-							<h3 class="carousel-caption-heading">Perfect Jain Teerth Guide</h3>
-							<hr width="20%">
-						</div>
-					</div>
-					<div class="item">
-						<div class="overlay"></div>
-						<img src="images/slider2.jpg" alt="Image">
-						<div class="carousel-caption">
-							<h2 class="carousel-caption-heading">Live And Let Live</h2>
-							<hr width="20%">
-						</div>
-					</div>
-					<div class="item">
-						<div class="overlay"></div>
-						<img src="images/slider3.jpg" alt="Image">
-						<div class="carousel-caption">
-							<h2 class="carousel-caption-heading">Perfect Jain Teerth Guide</h2>
-							<hr width="20%">
-						</div>
-					</div>
-				</div>
-				<!-- Left and right controls -->
-				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-		</section>
-		<section id="about">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-6" style=" min-height: 500px; display: flex; justify-content: center; align-items: center;">
-						<img src="images/slider1.jpg" class="about_image">
-					</div>
-					<div class="col-md-6" style=" min-height: 500px; display: flex;  justify-content: center; flex-direction: column;">
-						<h4 style="color: #f49842;">Shortly About Us</h4>
-						<h1><i>Welcome To Jain Guide</i></h1>
-						<p style="font-size: 20px">	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo debitis, pariatur nam ut eum tempora quae dolor cumque nemo libero suscipit quas quia, nihil voluptatum, autem deserunt animi blanditiis quidem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo debitis, pariatur nam ut eum tempora quae dolor cumque nemo libero suscipit quas quia, nihil voluptatum, autem deserunt animi blanditiis quidem!</p>
-					</div>
+	</div>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div class="overlay"></div>
+				<img src="images/slider1.jpg" alt="Image">
+				<div class="carousel-caption">
+					<h3 class="carousel-caption-heading">Perfect Jain Teerth Guide</h3>
+					<hr width="20%">
 				</div>
 			</div>
-		</section>
-		<section id="news">
-			<div class="container-fluid" style="padding: 0;">
-				<div class="row">
-					<div class="col-md-3 news_card" style="padding: 0;">
-						<div style="z-index: 1;">
-							<h1 style="margin-bottom: 0;">Our Missions</h1>
-							<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
-							<p>Become a part of the story</p>
-						</div>
-					</div>
-					<div class="col-md-3 news_card" style="padding: 0;">
-						<div style="z-index: 1;">
-							<h1 style="margin-bottom: 0;">Our Missions</h1>
-							<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
-							<p>Become a part of the story</p>
-						</div>
-					</div>
-					<div class="col-md-3 news_card" style="padding: 0;">
-						<div style="z-index: 1;">
-							<h1 style="margin-bottom: 0;">Our Missions</h1>
-							<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
-							<p>Become a part of the story</p>
-						</div>
-					</div>
-					<div class="col-md-3 news_card" style="padding: 0;">
-						<div style="z-index: 1;">
-							<h1 style="margin-bottom: 0;">Our Missions</h1>
-							<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
-							<p>Become a part of the story</p>
-						</div>
-					</div>
+			<div class="item">
+				<div class="overlay"></div>
+				<img src="images/slider2.jpg" alt="Image">
+				<div class="carousel-caption">
+					<h2 class="carousel-caption-heading">Live And Let Live</h2>
+					<hr width="20%">
 				</div>
 			</div>
-		</section>
-		<section id="stories">
-			<div class="container-fluid">
-				<h1 class="text-center" style="font-size: 48px;">Recent Stories</h1>
-				<hr style="border-bottom: 2px solid black;" width="15%">
-				<div class="row" style="padding-top: 50px;">
-					<div class="col-md-4">
-						<img src="images/bg1.jpg" style="width: 100%">
-						<h2>I Believe God is Grecious</h2>
-						<p>On <b>July 3, 2018</b> by <b> Naman Jain</b></p>
-						<p style="font-size: 18px; padding-top: 10px; color: #6c757d;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nisi odio modi quidem quo dolorem quia minus consectetur cupiditate! Animi ipsa enim dolor, debitis sapiente aliquid cupiditate quae minus error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptate, est? Architecto perspiciatis, nesciunt cumque pariatur rerum adipisci.</p>
-					</div>
-					<div class="col-md-4">
-						<img src="images/bg1.jpg" style="width: 100%">
-						<h2>I Believe God is Grecious</h2>
-						<p>On <b>July 3, 2018</b> by <b> Naman Jain</b></p>
-						<p style="font-size: 18px; padding-top: 10px; color: #6c757d;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nisi odio modi quidem quo dolorem quia minus consectetur cupiditate! Animi ipsa enim dolor, debitis sapiente aliquid cupiditate quae minus error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptate, est? Architecto perspiciatis, nesciunt cumque pariatur rerum adipisci.</p>
-					</div>
-					<div class="col-md-4">
-						<img src="images/bg1.jpg" style="width: 100%">
-						<h2>I Believe God is Grecious</h2>
-						<p>On <b>July 3, 2018</b> by <b> Naman Jain</b></p>
-						<p style="font-size: 18px; padding-top: 10px; color: #6c757d;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nisi odio modi quidem quo dolorem quia minus consectetur cupiditate! Animi ipsa enim dolor, debitis sapiente aliquid cupiditate quae minus error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptate, est? Architecto perspiciatis, nesciunt cumque pariatur rerum adipisci.</p>
-					</div>
+			<div class="item">
+				<div class="overlay"></div>
+				<img src="images/slider3.jpg" alt="Image">
+				<div class="carousel-caption">
+					<h2 class="carousel-caption-heading">Perfect Jain Teerth Guide</h2>
+					<hr width="20%">
 				</div>
 			</div>
-		</section>
-		<section id="quotes">
-			<img src="images/quote.png" width="60px">
-			<p class="quote"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolorem ad magni odio, ullam eveniet. Tempore et iste, explicabo numquam, quo vel, distinctio officiis voluptatibus repudiandae quae mollitia, vero asperiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ducimus delectus eum debitis dolor praesentium voluptas odio adipisci accusantium explicabo porro, maiores quidem corporis atque, sapiente perspiciatis quos voluptate voluptatum!</i></p>
-			<br/>
-			<h4>Lorem Ipsum</h4>
-			<h5 style="color: #6c757d;">XYZ</h5>
-			<img src="images/closequote.png" width="60px">
-		</section>
-		<section id="last">
-			<div class="container-fluid" style="padding: 0;">
-				<div class="row">
-					<div class="col-md-6 prayer">
-						<h1 style="font-size: 40px; z-index: 1; font-weight: 800;">
-						<i>Need Prayer ?</i>
-						</h1>
-						<p style="font-size: 20px; z-index: 1; color: #c9c9c9;">No matter what you're facing, we'd love to pray with you!</p>
-						<button style="z-index: 1;" class="btn btn-default">ASK FOR PRAYER</button>
-					</div>
-					<div class="col-md-6 prayer">
-						<h1 style="font-size: 40px; z-index: 1; font-weight: 800;">
-						<i>Want Help ?</i>
-						</h1>
-						<p style="font-size: 20px; z-index: 1; color: #c9c9c9;">Your financial support is very important for our global projects.</p>
-						<button style="z-index: 1;" class="btn btn-default">GIVE ONLINE</button>
-					</div>
+		</div>
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+</section>
+<section id="about">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6" style=" min-height: 500px; display: flex; justify-content: center; align-items: center;">
+				<img src="images/slider1.jpg" class="about_image">
+			</div>
+			<div class="col-md-6" style=" min-height: 500px; display: flex;  justify-content: center; flex-direction: column;">
+				<h4 style="color: #f49842;">Shortly About Us</h4>
+				<h1><i>Welcome To Jain Guide</i></h1>
+				<p style="font-size: 20px">	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo debitis, pariatur nam ut eum tempora quae dolor cumque nemo libero suscipit quas quia, nihil voluptatum, autem deserunt animi blanditiis quidem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo debitis, pariatur nam ut eum tempora quae dolor cumque nemo libero suscipit quas quia, nihil voluptatum, autem deserunt animi blanditiis quidem!</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="news">
+	<div class="container-fluid" style="padding: 0;">
+		<div class="row">
+			<div class="col-md-3 news_card" style="padding: 0;">
+				<div style="z-index: 1;">
+					<h1 style="margin-bottom: 0;">Our Missions</h1>
+					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
+					<p>Become a part of the story</p>
 				</div>
 			</div>
-		</section>
+			<div class="col-md-3 news_card" style="padding: 0;">
+				<div style="z-index: 1;">
+					<h1 style="margin-bottom: 0;">Our Missions</h1>
+					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
+					<p>Become a part of the story</p>
+				</div>
+			</div>
+			<div class="col-md-3 news_card" style="padding: 0;">
+				<div style="z-index: 1;">
+					<h1 style="margin-bottom: 0;">Our Missions</h1>
+					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
+					<p>Become a part of the story</p>
+				</div>
+			</div>
+			<div class="col-md-3 news_card" style="padding: 0;">
+				<div style="z-index: 1;">
+					<h1 style="margin-bottom: 0;">Our Missions</h1>
+					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
+					<p>Become a part of the story</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="stories">
+	<div class="container-fluid">
+		<h1 class="text-center" style="font-size: 48px;">Recent Stories</h1>
+		<hr style="border-bottom: 2px solid black;" width="15%">
+		<div class="row" style="padding-top: 50px;">
+			<div class="col-md-4">
+				<img src="images/bg1.jpg" style="width: 100%">
+				<h2>I Believe God is Grecious</h2>
+				<p>On <b>July 3, 2018</b> by <b> Naman Jain</b></p>
+				<p style="font-size: 18px; padding-top: 10px; color: #6c757d;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nisi odio modi quidem quo dolorem quia minus consectetur cupiditate! Animi ipsa enim dolor, debitis sapiente aliquid cupiditate quae minus error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptate, est? Architecto perspiciatis, nesciunt cumque pariatur rerum adipisci.</p>
+			</div>
+			<div class="col-md-4">
+				<img src="images/bg1.jpg" style="width: 100%">
+				<h2>I Believe God is Grecious</h2>
+				<p>On <b>July 3, 2018</b> by <b> Naman Jain</b></p>
+				<p style="font-size: 18px; padding-top: 10px; color: #6c757d;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nisi odio modi quidem quo dolorem quia minus consectetur cupiditate! Animi ipsa enim dolor, debitis sapiente aliquid cupiditate quae minus error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptate, est? Architecto perspiciatis, nesciunt cumque pariatur rerum adipisci.</p>
+			</div>
+			<div class="col-md-4">
+				<img src="images/bg1.jpg" style="width: 100%">
+				<h2>I Believe God is Grecious</h2>
+				<p>On <b>July 3, 2018</b> by <b> Naman Jain</b></p>
+				<p style="font-size: 18px; padding-top: 10px; color: #6c757d;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nisi odio modi quidem quo dolorem quia minus consectetur cupiditate! Animi ipsa enim dolor, debitis sapiente aliquid cupiditate quae minus error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptate, est? Architecto perspiciatis, nesciunt cumque pariatur rerum adipisci.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="quotes">
+	<img src="images/quote.png" width="60px">
+	<p class="quote"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolorem ad magni odio, ullam eveniet. Tempore et iste, explicabo numquam, quo vel, distinctio officiis voluptatibus repudiandae quae mollitia, vero asperiores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ducimus delectus eum debitis dolor praesentium voluptas odio adipisci accusantium explicabo porro, maiores quidem corporis atque, sapiente perspiciatis quos voluptate voluptatum!</i></p>
+	<br/>
+	<h4>Lorem Ipsum</h4>
+	<h5 style="color: #6c757d;">XYZ</h5>
+	<img src="images/closequote.png" width="60px">
+</section>
+<section id="last">
+	<div class="container-fluid" style="padding: 0;">
+		<div class="row">
+			<div class="col-md-6 prayer">
+				<h1 style="font-size: 40px; z-index: 1; font-weight: 800;">
+					<i>Need Prayer ?</i>
+				</h1>
+				<p style="font-size: 20px; z-index: 1; color: #c9c9c9;">No matter what you're facing, we'd love to pray with you!</p>
+				<button style="z-index: 1;" class="btn btn-default">ASK FOR PRAYER</button>
+			</div>
+			<div class="col-md-6 prayer">
+				<h1 style="font-size: 40px; z-index: 1; font-weight: 800;">
+					<i>Want Help ?</i>
+				</h1>
+				<p style="font-size: 20px; z-index: 1; color: #c9c9c9;">Your financial support is very important for our global projects.</p>
+				<button style="z-index: 1;" class="btn btn-default">GIVE ONLINE</button>
+			</div>
+		</div>
+	</div>
+</section>
 		<!-- <div id="fh5co-services" class="fh5co-bg-section">
 									<div class="container">
 																<div class="row">
@@ -449,57 +365,5 @@
 																							</div>
 																</div>
 									</div>
-		</div> -->
-		<section style="padding:0;">
-		<footer id="fh5co-footer" role="contentinfo">
-			<div class="container">
-				<div class="row row-pb-md">
-					<div class="col-md-2 col-sm-4 col-xs-6">
-						<ul class="fh5co-footer-links">
-							<li><a href="#">About</a></li>
-							<li><a href="#">Help</a></li>
-							<li><a href="#">Contact</a></li>
-							<li><a href="#">Terms</a></li>
-							<li><a href="#">Meetups</a></li>
-						</ul>
-					</div>
-					<div class="col-md-2 col-sm-4 col-xs-6">
-						<ul class="fh5co-footer-links">
-							<li><a href="#">Lorem</a></li>
-							<li><a href="#">Lorem</a></li>
-							<li><a href="#">Lorem</a></li>
-							<li><a href="#">Lorem</a></li>
-							<li><a href="#">Lorem</a></li>
-						</ul>
-					</div>
-					<div class="col-md-2 col-sm-4 col-xs-6">
-						<ul class="fh5co-footer-links">
-							<li><a href="#">Lorem</a></li>
-							<li><a href="#">Lorem</a></li>
-							<li><a href="#">Lorem</a></li>
-							<li><a href="#">Lorem</a></li>
-							<li><a href="#">Lorem</a></li>
-						</ul>
-					</div>
-					<div class="col-md-4 col-sm-12 col-xs-12 fh5co-widget col-md-push-1">
-						<h3>A Little About Jain Guide</h3>
-						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						<p><a href="#">Learn More</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="text-center">
-				<i style="font-size: 20px;" class="icon-facebook"></i> &nbsp;&nbsp; <i style="font-size: 20px;" class="icon-twitter"></i>
-				<br/>
-				<p>Contact us</p>
-				<p>9999999999</p>
-				<br><br>
-				<p style="width: 100%; margin: auto; ">&copy; Jain Dharamshala 2018</p>
-			</div>
-		</footer>
-		</section>
-		
-		<!-- Main -->
-		<script src="js/main.js"></script>
-	</body>
-</html>
+								</div> -->
+								@include('layouts.footer')
