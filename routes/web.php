@@ -18,6 +18,7 @@ Route::get('/contact-us', 'ContactController@index')->name('contact');
 Route::get('/about-us', 'WelcomeController@aboutDarshanmala')->name('aboutDarshanmala');
 Route::get('/about-jainism', 'WelcomeController@aboutJainism')->name('aboutJainism');
 Route::get('/gallery', 'WelcomeController@gallery')->name('gallery');
+Route::post('/contact-us', 'ContactController@store')->name('contact.store');
 
 // Old routes for backend
 Auth::routes();

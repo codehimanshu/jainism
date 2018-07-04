@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Contact;
 use Illuminate\Http\Request;
+use App\Mail\Contacted;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -34,7 +37,11 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $contact = new Contact;
+        $contact->fill($request->all());
+        $contact->save();
+        Mail::to("himanshuagrawal1998@gmail.com")->send(new Contacted($contact->name, $contact->email, $contact->message, $contact->phone));
+        return redirect('/contact-us');
     }
 
     /**
