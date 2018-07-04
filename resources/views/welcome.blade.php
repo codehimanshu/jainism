@@ -40,7 +40,7 @@
 				<div class="overlay"></div>
 				<img src="images/slider1.jpg" alt="Image">
 				<div class="carousel-caption">
-					<h3 class="carousel-caption-heading">Perfect Jain Teerth Guide</h3>
+					<h3 class="carousel-caption-heading shrikhand">Perfect Jain Teerth Guide</h3>
 					<hr width="20%">
 				</div>
 			</div>
@@ -48,7 +48,7 @@
 				<div class="overlay"></div>
 				<img src="images/slider2.jpg" alt="Image">
 				<div class="carousel-caption">
-					<h2 class="carousel-caption-heading">Live And Let Live</h2>
+					<h2 class="carousel-caption-heading shrikhand">Live And Let Live</h2>
 					<hr width="20%">
 				</div>
 			</div>
@@ -56,7 +56,7 @@
 				<div class="overlay"></div>
 				<img src="images/slider3.jpg" alt="Image">
 				<div class="carousel-caption">
-					<h2 class="carousel-caption-heading">Perfect Jain Teerth Guide</h2>
+					<h2 class="carousel-caption-heading shrikhand">Perfect Jain Teerth Guide</h2>
 					<hr width="20%">
 				</div>
 			</div>
@@ -79,9 +79,9 @@
 				<img src="images/slider1.jpg" class="about_image">
 			</div>
 			<div class="col-md-6" style=" min-height: 500px; display: flex;  justify-content: center; flex-direction: column;">
-				<h4 style="color: #f49842;">Shortly About Us</h4>
+				<h4 style="color: #f49842;" class="shrikhand">Shortly About Us</h4>
 				<h1><i>Welcome To Jain Guide</i></h1>
-				<p style="font-size: 20px">	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo debitis, pariatur nam ut eum tempora quae dolor cumque nemo libero suscipit quas quia, nihil voluptatum, autem deserunt animi blanditiis quidem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo debitis, pariatur nam ut eum tempora quae dolor cumque nemo libero suscipit quas quia, nihil voluptatum, autem deserunt animi blanditiis quidem!</p>
+				<p style="font-size: 20px; width: 85%;">	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo debitis, pariatur nam ut eum tempora quae dolor cumque nemo libero suscipit quas quia, nihil voluptatum, autem deserunt animi blanditiis quidem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo debitis, pariatur nam ut eum tempora quae dolor cumque nemo libero suscipit quas quia, nihil voluptatum, autem deserunt animi blanditiis quidem!</p>
 			</div>
 		</div>
 	</div>
@@ -91,28 +91,28 @@
 		<div class="row">
 			<div class="col-md-3 news_card" style="padding: 0;">
 				<div style="z-index: 1;">
-					<h1 style="margin-bottom: 0;">Our Missions</h1>
+					<h1 style="margin-bottom: 0;" class="shrikhand">Our Missions</h1>
 					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
 					<p>Become a part of the story</p>
 				</div>
 			</div>
 			<div class="col-md-3 news_card" style="padding: 0;">
 				<div style="z-index: 1;">
-					<h1 style="margin-bottom: 0;">Our Missions</h1>
+					<h1 style="margin-bottom: 0;" class="shrikhand">Our Missions</h1>
 					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
 					<p>Become a part of the story</p>
 				</div>
 			</div>
 			<div class="col-md-3 news_card" style="padding: 0;">
 				<div style="z-index: 1;">
-					<h1 style="margin-bottom: 0;">Our Missions</h1>
+					<h1 style="margin-bottom: 0;" class="shrikhand">Our Missions</h1>
 					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
 					<p>Become a part of the story</p>
 				</div>
 			</div>
 			<div class="col-md-3 news_card" style="padding: 0;">
 				<div style="z-index: 1;">
-					<h1 style="margin-bottom: 0;">Our Missions</h1>
+					<h1 style="margin-bottom: 0;" class="shrikhand">Our Missions</h1>
 					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
 					<p>Become a part of the story</p>
 				</div>
@@ -122,7 +122,7 @@
 </section>
 <section id="stories">
 	<div class="container-fluid">
-		<h1 class="text-center" style="font-size: 48px;">Recent Stories</h1>
+		<h1 class="text-center shrikhand" style="font-size: 48px; font-weight: normal;">Recent Stories</h1>
 		<hr style="border-bottom: 2px solid black;" width="15%">
 		<div class="row" style="padding-top: 50px;">
 			<div class="col-md-4">
@@ -158,15 +158,15 @@
 	<div class="container-fluid" style="padding: 0;">
 		<div class="row">
 			<div class="col-md-6 prayer">
-				<h1 style="font-size: 40px; z-index: 1; font-weight: 800;">
-					<i>Need Prayer ?</i>
+				<h1 style="font-size: 40px; z-index: 1; " class="shrikhand">
+					Need Prayer ?
 				</h1>
 				<p style="font-size: 20px; z-index: 1; color: #c9c9c9;">No matter what you're facing, we'd love to pray with you!</p>
 				<button style="z-index: 1;" class="btn btn-default">ASK FOR PRAYER</button>
 			</div>
 			<div class="col-md-6 prayer">
-				<h1 style="font-size: 40px; z-index: 1; font-weight: 800;">
-					<i>Want Help ?</i>
+				<h1 style="font-size: 40px; z-index: 1;" class="shrikhand">
+					Want Help ?
 				</h1>
 				<p style="font-size: 20px; z-index: 1; color: #c9c9c9;">Your financial support is very important for our global projects.</p>
 				<button style="z-index: 1;" class="btn btn-default">GIVE ONLINE</button>

@@ -40,7 +40,7 @@ class ContactController extends Controller
         $contact = new Contact;
         $contact->fill($request->all());
         $contact->save();
-        Mail::to("himanshuagrawal1998@gmail.com")->send(new Contacted($contact->name, $contact->email, $contact->message, $contact->phone));
+        Mail::to("vishnoi.kunal0@gmail.com")->send(new Contacted($contact->name, $contact->email, $contact->message, $contact->phone));
         return redirect('/contact-us');
     }
 
