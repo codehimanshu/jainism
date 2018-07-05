@@ -19,7 +19,7 @@
 						<span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a href="{{ route('aboutDarshanmala') }}">About Jain Dharamshala</a></li>
+						<li><a href="{{ route('aboutDarshanmala') }}">About Jain Darshanamala</a></li>
 						<li><a href="{{ route('aboutJainism') }}">About Jainism</a></li>
 					</ul>
 				</li>

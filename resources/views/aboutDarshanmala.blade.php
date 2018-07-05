@@ -20,7 +20,7 @@
             <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="{{ route('aboutDarshanmala') }}" >About Jain Dharamshala</a></li>
+            <li><a href="{{ route('aboutDarshanmala') }}" >About Jain Darshanmala</a></li>
             <li><a href="{{ route('aboutJainism') }}">About Jainism</a></li>
           </ul>
         </li>
@@ -47,7 +47,7 @@
 </nav>
 
 <section style="padding-top: 100px;">
-  <h1 class="text-center" >Jain Dharamshala</h1>
+  <h1 class="text-center" >Jain Darshanmala</h1>
   <hr style="border-bottom: 2px solid black; width: 10%;">
   <div class="container-fluid" style="padding-right: 0; padding-left: 0; padding-top: 30px;">
     <div class="row">
