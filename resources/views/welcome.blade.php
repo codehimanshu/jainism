@@ -46,7 +46,7 @@
 			</div>
 			<div class="item">
 				<div class="overlay"></div>
-				<img src="images/slider2.jpg" alt="Image">
+				<img src="images/slider4.jpg" alt="Image">
 				<div class="carousel-caption">
 					<h2 class="carousel-caption-heading shrikhand">Live And Let Live</h2>
 					<hr width="20%">
@@ -54,7 +54,7 @@
 			</div>
 			<div class="item">
 				<div class="overlay"></div>
-				<img src="images/slider3.jpg" alt="Image">
+				<img src="images/slider5.png" alt="Image">
 				<div class="carousel-caption">
 					<h2 class="carousel-caption-heading shrikhand">Perfect Jain Teerth Guide</h2>
 					<hr width="20%">
