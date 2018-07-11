@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-fixed-top">
+<nav class="navbar navbar-fixed-top" style="height: 75px;">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -8,7 +8,7 @@
 				<span class="icon-bar"></span>
 			</button>
 			<span class="navbar-brand logo">
-				<a class="a1" href="#home"><img src="images/logo.png" class="logo-image"></a>
+				<a class="a1" href="#home"><img src="images/jainorange.png" class="logo-image"></a>
 			</span>
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">

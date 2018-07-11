@@ -91,30 +91,30 @@
 		<div class="row">
 			<div class="col-md-3 news_card" style="padding: 0;">
 				<div style="z-index: 1;">
-					<h1 style="margin-bottom: 0;" class="shrikhand">Our Missions</h1>
+					<h1 style="margin-bottom: 0;" class="shrikhand">Teerth</h1>
 					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
-					<p>Become a part of the story</p>
+					<p>Explore the amazingreligious gateway</p>
 				</div>
 			</div>
 			<div class="col-md-3 news_card" style="padding: 0;">
 				<div style="z-index: 1;">
-					<h1 style="margin-bottom: 0;" class="shrikhand">Our Missions</h1>
+					<h1 style="margin-bottom: 0;" class="shrikhand">Blog</h1>
 					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
-					<p>Become a part of the story</p>
+					<p>Share your memory with the jain world</p>
 				</div>
 			</div>
 			<div class="col-md-3 news_card" style="padding: 0;">
 				<div style="z-index: 1;">
-					<h1 style="margin-bottom: 0;" class="shrikhand">Our Missions</h1>
+					<h1 style="margin-bottom: 0;" class="shrikhand">Paathshala</h1>
 					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
-					<p>Become a part of the story</p>
+					<p>Learn the Path of enlightment that jainism has to offer</p>
 				</div>
 			</div>
 			<div class="col-md-3 news_card" style="padding: 0;">
 				<div style="z-index: 1;">
-					<h1 style="margin-bottom: 0;" class="shrikhand">Our Missions</h1>
+					<h1 style="margin-bottom: 0;" class="shrikhand">Gallery</h1>
 					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
-					<p>Become a part of the story</p>
+					<p>Browse videos bhajans &amp; wallpapers</p>
 				</div>
 			</div>
 		</div>

@@ -30,6 +30,6 @@ class WelcomeController extends Controller
 
     public function gallery()
     {
-        return view('galler');
+        return view('gallery');
     }
 }

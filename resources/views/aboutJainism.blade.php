@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <span class="navbar-brand logo">
-        <a class="a1" href="#home"><img src="images/logo.png" class="logo-image"></a>
+        <a class="a1" href="#home"><img src="images/jainorange.png" class="logo-image"></a>
       </span>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -48,7 +48,7 @@
 
 <section style="padding-top: 70px;">
    <h1 class="text-center" style="margin-top: 0; margin-bottom: 0; background-color: #fafafa; padding-bottom: 50px; padding-top: 30px; font-size: 40px; font-family: 'Shrikhand' , serif; font-weight: normal; opacity: 0.8;">Jainism</h1>
-  <div class="container-fluid" style="padding-right: 0; padding-left: 0; padding-top: 30px;">
+  <div class="container-fluid" style="padding-right: 0; padding-left: 0;">
     <div class="row">
       <div class="col-md-6" style="padding-right: 0; padding-left: 0;">
         <div style="direction: flex; justify-content: center; align-items: center; min-height: 600px;">

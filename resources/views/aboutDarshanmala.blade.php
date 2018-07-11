@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <span class="navbar-brand logo">
-        <a class="a1" href="#home"><img src="images/logo.png" class="logo-image"></a>
+        <a class="a1" href="#home"><img src="images/jainorange.png" class="logo-image"></a>
       </span>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">

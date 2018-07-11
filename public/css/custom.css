@@ -147,8 +147,7 @@ font-size: 15px;
 margin-left: 0;
 }
 .logo-image{
-max-height: 75px;
-max-width: 75px;
+height: 55px;
 margin-left: 10px;
 }
 .logo-image:hover{
@@ -156,9 +155,9 @@ margin-left: 10px;
     color: transparent;
 }
 .logo-image2{
-max-height: 55px;
-max-width: 55px;
-margin-top: 0;
+height: 55px;
+
+margin-top: 5px;
 }
 .overlay {
     position: absolute;
@@ -431,4 +430,7 @@ section#contact .text-warning {
 }
 .shrikhand {
   font-family: 'Shrikhand', cursive;
+}
+iframe {
+  border: 3px solid rgba(255,255,255,0.8);
 }
