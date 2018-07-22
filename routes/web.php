@@ -13,14 +13,21 @@
 
 
 // Current static routes
+
 Route::get('/', 'WelcomeController@index')->name('welcome');
-Route::get('/contact-us', 'ContactController@index')->name('contact');
+
 Route::get('/about-us', 'WelcomeController@aboutDarshanmala')->name('aboutDarshanmala');
 Route::get('/about-jainism', 'WelcomeController@aboutJainism')->name('aboutJainism');
-Route::get('/pathshala', 'WelcomeController@pathshala')->name('pathshala');
+
+Route::get('/pathshala', 'PathshalaController@index')->name('pathshala.index');
+Route::get('/pathshala/{id}', 'PathshalaController@category')->name('pathshala.category');
+
 Route::get('/blog', 'BlogController@index')->name('blog.index');
 Route::get('/blog/{id}', 'BlogController@show')->name('blog.show');
+
 Route::get('/gallery', 'WelcomeController@gallery')->name('gallery');
+
+Route::get('/contact-us', 'ContactController@index')->name('contact');
 Route::post('/contact-us', 'ContactController@store')->name('contact.store');
 
 // Old routes for backend

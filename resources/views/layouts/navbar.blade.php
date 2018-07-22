@@ -35,7 +35,7 @@
 
 					</ul>
 				</li>
-				<li><a href="{{ route('pathshala') }}">Paathshala</a></li>
+				<li><a href="{{ route('pathshala.index') }}">Paathshala</a></li>
 				<li><a href="{{ route('gallery') }}">Gallery</a></li>
 				<li><a href="{{ route('blog.index') }}">Blog</a></li>
 				<li><a href="{{ route('contact') }}">Contact us</a></li>

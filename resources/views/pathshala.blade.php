@@ -4,12 +4,11 @@
     <h1 style=" padding-bottom: 50px;" class="text-center">Paathshala</h1>
     <div class="container">
         <div class="row">
+            @foreach($categories as $category)
             <div class="col-md-4">
-                <iframe width="100%" height="200" src="https://www.youtube.com/embed/EnQfB4YIL0w">
-                </iframe>
-                <h4>Tushar Jain</h4>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                <a href="{{ route('pathshala.category', $category->id) }}"><h4>{{ $category->category }}</h4></a>
             </div>
+            @endforeach
         </div>
     </div>
 </section>
