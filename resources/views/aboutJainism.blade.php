@@ -1,6 +1,6 @@
 @include('layouts.header')
 
-<nav class="navbar navbar-fixed-top">
+<nav class="navbar navbar-fixed-top" style="background-color: #fafafa; padding-bottom: 0; margin-bottom: 0; height: 75px;">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <span class="navbar-brand logo">
-        <a class="a1" href="#home"><img src="images/logo.png" class="logo-image"></a>
+        <a class="a1" href="#home"><img src="images/jainorange.png" class="logo-image"></a>
       </span>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -46,46 +46,46 @@
   </div>
 </nav>
 
-<section style="padding-top: 100px;">
-  <h1 class="text-center" >Jainism</h1>
-  <hr style="border-bottom: 2px solid black; width: 10%;">
-  <div class="container-fluid" style="padding-right: 0; padding-left: 0; padding-top: 30px;">
+<section style="padding-top: 70px;">
+   <h1 class="text-center" style="margin-top: 0; margin-bottom: 0; background-color: #fafafa; padding-bottom: 50px; padding-top: 30px; font-size: 40px; font-family: 'Shrikhand' , serif; font-weight: normal; opacity: 0.8;">Jainism</h1>
+  <div class="container-fluid" style="padding-right: 0; padding-left: 0;">
     <div class="row">
       <div class="col-md-6" style="padding-right: 0; padding-left: 0;">
-        <div style="direction: flex; justify-content: center; align-items: center; height: 400px;">
-          <img src="images/slider1.jpg" width="100%" height="400px">
+        <div style="direction: flex; justify-content: center; align-items: center; min-height: 600px;">
+          <img src="images/slider1.jpg" width="100%" height="600px">
         </div>
       </div>
       <div class="col-md-6">
-        <div style="display: flex; justify-content: center; align-items: center; height: 400px; flex-direction: column;">
-          <h2 style="color: rgb(244,152,66);" > Topic-1</h2>
-          <p style="width: 70%; line-height: 3rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt rem, molestias adipisci enim, obcaecati error ex fuga modi dolore vero porro at eum sunt sapiente. Dicta facilis earum quo rerumLorem  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto sapiente amet soluta rerum porro suscipit, reprehenderit numquam odio, recusandae nisi aut repellendus voluptatem molestiae impedit rem voluptates dignissimos nihil necessitatibus.</p>
+        <div style="display: flex; justify-content: center; align-items: center; min-height: 600px; flex-direction: column;">
+          <h2 style="color: rgb(244,152,66);" >Jain Dharma</h2>
+          <p style="width: 70%; line-height: 3rem; font-size: 20px;">Jainism traditionally known as Jain Dharma, is an ancient Indian religion. Followers of Jainism are called "Jains", a word derived from the Sanskrit word jina (victor) and connoting the path of victory in crossing over life's stream of rebirths through an ethical and spiritual life. Jains trace their history through a succession of twenty-four victorious saviours and teachers known as tirthankaras, with the first being Rishabhanatha, who is believed to have lived millions of years ago in Jain tradition, and twenty-fourth being the Mahāvīra around 500 BCE. Jains believe that Jainism is an eternal dharma with the tirthankaras guiding every cycle of the Jain cosmology.</p>
       </div>
     </div>
   </div>
      <div class="row">
       <div class="col-md-6">
-        <div style="display: flex; justify-content: center; align-items: center; height: 400px; flex-direction: column;">
-          <h2 style="color: rgb(244,152,66);"> Topic-2</h2>
-          <p style="width: 70%; line-height: 3rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt rem, molestias adipisci enim, obcaecati error ex fuga modi dolore vero porro at eum sunt sapiente. Dicta facilis earum quo rerumLorem  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto sapiente amet soluta rerum porro suscipit, reprehenderit numquam odio, recusandae nisi aut repellendus voluptatem molestiae impedit rem voluptates dignissimos nihil necessitatibus.</p>
+        <div style="display: flex; justify-content: center; align-items: center; min-height: 600px; flex-direction: column;">
+          <h2 style="color: rgb(244,152,66);">Jain Religion</h2>
+          <p style="width: 70%; line-height: 3rem; font-size: 20px;">The main religious premises of Jainism are ahiṃsā ("non-violence"), anekāntavāda ("many-sidedness"), aparigraha ("non-attachment") and asceticism. Jain monastics, renunciants, and devout householders take five main vows known as vratas, outlined in their oldest surviving text, the Acaranga Sūtra: ahiṃsā ("non-violence"), satya ("truth"), asteya ("not stealing"), brahmacharya ("celibacy or chastity"), and aparigraha("non-attachment"). These principles have impacted Jain culture in many ways, such as leading to a predominantly vegetarian lifestyle that avoids harm to animals and their life cycles. Parasparopagraho Jīvānām ("the function of souls is to help one another") is the motto of Jainism. Ṇamōkāra mantra is the most common and basic prayer in Jainism.
+          </p>
       </div>
     </div>
     <div class="col-md-6" style="padding-right: 0; padding-left: 0;">
-        <div style="direction: flex; justify-content: center; align-items: center; height: 400px;">
-          <img src="images/slider2.jpg" width="100%" height="400px">
+        <div style="direction: flex; justify-content: center; align-items: center; min-height: 600px;">
+          <img src="images/slider2.jpg" width="100%" height="600px">
         </div>
       </div>
   </div>
    <div class="row">
       <div class="col-md-6" style="padding-right: 0; padding-left: 0;">
-        <div style="direction: flex; justify-content: center; align-items: center; height: 400px;">
-          <img src="images/slider3.jpg" width="100%" height="400px">
+        <div style="direction: flex; justify-content: center; align-items: center; min-height: 600px;">
+          <img src="images/slider3.jpg" width="100%" height="600px">
         </div>
       </div>
       <div class="col-md-6">
-        <div style="display: flex; justify-content: center; align-items: center; height: 400px; flex-direction: column;">
-          <h2 style="color: rgb(244,152,66);"> Topic-3</h2>
-          <p style="width: 70%; line-height: 3rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt rem, molestias adipisci enim, obcaecati error ex fuga modi dolore vero porro at eum sunt sapiente. Dicta facilis earum quo rerumLorem  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto sapiente amet soluta rerum porro suscipit, reprehenderit numquam odio, recusandae nisi aut repellendus voluptatem molestiae impedit rem voluptates dignissimos nihil necessitatibus.</p>
+        <div style="display: flex; justify-content: center; align-items: center; min-height: 600px; flex-direction: column;">
+          <h2 style="color: rgb(244,152,66);">Jain Followers</h2>
+          <p style="width: 70%; line-height: 3rem; font-size: 20px;">Jainism has between four and five million followers, with most Jains residing in India.Outside India, some of the largest Jain communities are present in Canada, Europe, Kenya, the United Kingdom, Hong Kong, Suriname, Fiji, and the United States. Major Jain festivals include Paryushanaand Daslakshana, Mahavir Jayanti, and Diwali.</p>
       </div>
     </div>
   </div>

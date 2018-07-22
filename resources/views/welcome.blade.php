@@ -46,7 +46,7 @@
 			</div>
 			<div class="item">
 				<div class="overlay"></div>
-				<img src="images/slider2.jpg" alt="Image">
+				<img src="images/slider4.jpg" alt="Image">
 				<div class="carousel-caption">
 					<h2 class="carousel-caption-heading shrikhand">Live And Let Live</h2>
 					<hr width="20%">
@@ -54,7 +54,7 @@
 			</div>
 			<div class="item">
 				<div class="overlay"></div>
-				<img src="images/slider3.jpg" alt="Image">
+				<img src="images/slider5.png" alt="Image">
 				<div class="carousel-caption">
 					<h2 class="carousel-caption-heading shrikhand">Perfect Jain Teerth Guide</h2>
 					<hr width="20%">
@@ -91,30 +91,30 @@
 		<div class="row">
 			<div class="col-md-3 news_card" style="padding: 0;">
 				<div style="z-index: 1;">
-					<h1 style="margin-bottom: 0;" class="shrikhand">Our Missions</h1>
+					<h1 style="margin-bottom: 0;" class="shrikhand">Teerth</h1>
 					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
-					<p>Become a part of the story</p>
+					<p>Explore the amazingreligious gateway</p>
 				</div>
 			</div>
 			<div class="col-md-3 news_card" style="padding: 0;">
 				<div style="z-index: 1;">
-					<h1 style="margin-bottom: 0;" class="shrikhand">Our Missions</h1>
+					<h1 style="margin-bottom: 0;" class="shrikhand">Blog</h1>
 					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
-					<p>Become a part of the story</p>
+					<p>Share your memory with the jain world</p>
 				</div>
 			</div>
 			<div class="col-md-3 news_card" style="padding: 0;">
 				<div style="z-index: 1;">
-					<h1 style="margin-bottom: 0;" class="shrikhand">Our Missions</h1>
+					<h1 style="margin-bottom: 0;" class="shrikhand">Paathshala</h1>
 					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
-					<p>Become a part of the story</p>
+					<p>Learn the Path of enlightment that jainism has to offer</p>
 				</div>
 			</div>
 			<div class="col-md-3 news_card" style="padding: 0;">
 				<div style="z-index: 1;">
-					<h1 style="margin-bottom: 0;" class="shrikhand">Our Missions</h1>
+					<h1 style="margin-bottom: 0;" class="shrikhand">Gallery</h1>
 					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
-					<p>Become a part of the story</p>
+					<p>Browse videos bhajans &amp; wallpapers</p>
 				</div>
 			</div>
 		</div>
