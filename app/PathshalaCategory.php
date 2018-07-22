@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class PathshalaCategory extends Model
 {
     protected $fillable = [
-    	"id", "category", "status"
+    	"id", "category", "image", "status"
     ];
 
     public function videos() {

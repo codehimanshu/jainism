@@ -6,7 +6,8 @@
         <div class="row">
             @foreach($categories as $category)
             <div class="col-md-4">
-                <a href="{{ route('pathshala.category', $category->id) }}"><h4>{{ $category->category }}</h4></a>
+                <img width="350px" height="250px" src="{{ asset('/images/pathshala/'.$category->image) }}">
+                <center><h2><a href="{{ route('pathshala.category', $category->id) }}"><h4>{{ $category->category }}</h4></a></h2></center>
             </div>
             @endforeach
         </div>
