@@ -10,4 +10,3 @@ class Blog extends Model
     	'id', 'title', 'author', 'content', 'source', 'image'
     ];
 }
-}

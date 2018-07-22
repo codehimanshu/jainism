@@ -8,7 +8,7 @@
 				<span class="icon-bar"></span>
 			</button>
 			<span class="navbar-brand logo">
-				<a class="a1" href="#home"><img src="images/jainorange.png" class="logo-image"></a>
+				<a class="a1" href="#home"><img src="/images/jainorange.png" class="logo-image"></a>
 			</span>
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
@@ -35,9 +35,9 @@
 
 					</ul>
 				</li>
-				<li><a href="#speakers">Paathshala</a></li>
+				<li><a href="{{ route('pathshala') }}">Paathshala</a></li>
 				<li><a href="{{ route('gallery') }}">Gallery</a></li>
-				<li><a href="#team">Blog</a></li>
+				<li><a href="{{ route('blog.index') }}">Blog</a></li>
 				<li><a href="{{ route('contact') }}">Contact us</a></li>
 
 			</ul>
