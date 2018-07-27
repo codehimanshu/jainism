@@ -7,7 +7,7 @@
             @foreach($blogs as $blog)
             <div class="col-md-4">
                 <a href="{{ route('blog.show', $blog->id) }}"><h2>{{ $blog->title }}</h2></a>
-                <p>{!! substr($blog->content,50) !!}</p>
+                <p>{!! substr($blog->content,0,200) !!}</p>
                 <img width="300px" src="{{ asset('/images/blog/'.$blog->image)}}">
                 {{ $blog->created_at }}
             </div>
