@@ -36,9 +36,9 @@
 
           </ul>
         </li>
-        <li><a href="#speakers" style="color: black;">Paathshala</a></li>
+        <li><a href="{{ route('pathshala.index') }}" style="color: black;">Paathshala</a></li>
         <li><a href="{{ route('gallery') }}" style="color: black;">Gallery</a></li>
-        <li><a href="#team" style="color: black;">Blog</a></li>
+        <li><a href="{{ route('blog.index') }}" style="color: black;">Blog</a></li>
         <li><a href="{{ route('contact') }}" style="color: black;">Contact us</a></li>
 
       </ul>
