@@ -4,12 +4,12 @@
     <h1 style=" padding-bottom: 50px;" class="text-center">Paathshala</h1>
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <iframe width="100%" height="200" src="https://www.youtube.com/embed/EnQfB4YIL0w">
-                </iframe>
-                <h4>Tushar Jain</h4>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-            </div>
+            @foreach($albums as $album)
+                <div class="col-md-4">
+                            <img width="100%" height="300px" src="{{ asset('/images/gallery/'.$album->image) }}">
+                    <a href="{{route('gallery',$album->id)}}"><h4>{{$album->title}}</h4></a>
+                </div>
+            @endforeach
         </div>
     </div>
 </section>

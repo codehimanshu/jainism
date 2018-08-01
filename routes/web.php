@@ -25,7 +25,8 @@ Route::get('/pathshala/{id}', 'PathshalaController@category')->name('pathshala.c
 Route::get('/blog', 'BlogController@index')->name('blog.index');
 Route::get('/blog/{id}', 'BlogController@show')->name('blog.show');
 
-Route::get('/gallery', 'WelcomeController@gallery')->name('gallery');
+Route::get('/gallery', 'AlbumController@index')->name('gallery.index');
+Route::get('/gallery/{id}', 'AlbumController@gallery')->name('gallery');
 
 Route::get('/contact-us', 'ContactController@index')->name('contact');
 Route::post('/contact-us', 'ContactController@store')->name('contact.store');
