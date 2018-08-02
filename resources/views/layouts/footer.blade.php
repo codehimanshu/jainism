@@ -49,5 +49,8 @@
 		
 		<!-- Main -->
 		<script src="/js/main.js"></script>
+		<script src="/js/bootstrap-lightbox.js"></script>
+		<script src="/js/bootstrap-lightbox.min.js"></script>
+
 	</body>
 </html>
