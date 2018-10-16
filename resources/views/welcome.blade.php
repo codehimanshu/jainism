@@ -81,7 +81,7 @@
 			<div class="col-md-6" style=" min-height: 500px; display: flex;  justify-content: center; flex-direction: column;">
 				<h4 style="color: #f49842;" class="shrikhand">Shortly About Us</h4>
 				<h1><i>Welcome To Jain Guide</i></h1>
-				<p style="font-size: 20px; width: 85%;">	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo debitis, pariatur nam ut eum tempora quae dolor cumque nemo libero suscipit quas quia, nihil voluptatum, autem deserunt animi blanditiis quidem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo debitis, pariatur nam ut eum tempora quae dolor cumque nemo libero suscipit quas quia, nihil voluptatum, autem deserunt animi blanditiis quidem!</p>
+				<p style="font-size: 20px; width: 85%;">	Jain Darshanmala will allow you to share your experience and religious moments that you create while vising any jain teerth on Jain Darshamala's live Blog. On this website you would be able to access all the new News and updates related to the Jain Community across the Globe. So come and join us on this religious journey of beautiful world of Jainism and enlighten yourself with its vibrant colors.</p>
 			</div>
 		</div>
 	</div>
@@ -89,38 +89,38 @@
 <section id="news">
 	<div class="container-fluid" style="padding: 0;">
 		<div class="row">
-			<div class="col-md-3 news_card" style="padding: 0;">
-				<div style="z-index: 1;">
-					<h1 style="margin-bottom: 0;" class="shrikhand">Teerth</h1>
-					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
+			<div class="col-md-3 text-center" style="margin-top: 5px;">
+				<div>
+					<img src="images/3333.png" width="200px">
+					<h1 style="margin-bottom: 0;" class="shrikhand text-center">Teerth</h1>
 					<p>Explore the amazingreligious gateway</p>
 				</div>
 			</div>
-			<div class="col-md-3 news_card" style="padding: 0;">
-				<div style="z-index: 1;">
-					<h1 style="margin-bottom: 0;" class="shrikhand">Blog</h1>
-					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
+			<div class="col-md-3 text-center" style="margin-top: 5px;">
+				<div>
+					<img src="images/2222.png" width="200px">
+					<h1 style="margin-bottom: 0;" class="shrikhand text-center">Blog</h1>
 					<p>Share your memory with the jain world</p>
 				</div>
 			</div>
-			<div class="col-md-3 news_card" style="padding: 0;">
-				<div style="z-index: 1;">
-					<h1 style="margin-bottom: 0;" class="shrikhand">Paathshala</h1>
-					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
+			<div class="col-md-3 text-center" style="margin-top: 5px;">
+				<div>
+					<img src="images/dddd.png" width="200px">
+					<h1 style="margin-bottom: 0;" class="shrikhand text-center">Paathshala</h1>
 					<p>Learn the Path of enlightment that jainism has to offer</p>
 				</div>
 			</div>
-			<div class="col-md-3 news_card" style="padding: 0;">
-				<div style="z-index: 1;">
-					<h1 style="margin-bottom: 0;" class="shrikhand">Gallery</h1>
-					<hr style="border-bottom: 2px solid #fff; margin-top: 5px;" width="10%">
+			<div class="col-md-3 text-center" style=" margin-top: 5px;">
+				<div>
+					<img src="images/1111.png" width="200px">
+					<h1 style="margin-bottom: 0;" class="shrikhand text-center">Gallery</h1>
 					<p>Browse videos bhajans &amp; wallpapers</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section id="stories">
+<section id="stories" style="padding-top: 50px;">
 	<div class="container-fluid">
 		<h1 class="text-center shrikhand" style="font-size: 48px; font-weight: normal;">Recent Stories</h1>
 		<hr style="border-bottom: 2px solid black;" width="15%">
